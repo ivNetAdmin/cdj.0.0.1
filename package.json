@@ -1,0 +1,33 @@
+{
+  "name": "cdj.0.0.1",
+  "version": "0.0.1",
+  "description": "Contagious DJs Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivNetAdmin/cdj.0.0.1.git"
+  },
+  "author": "ivnet.co.uk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivNetAdmin/cdj.0.0.1/issues"
+  },
+  "homepage": "https://github.com/ivNetAdmin/cdj.0.0.1#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.4.2",
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper": "^1.14.3",
+    "tether": "^1.4.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "graceful-fs": "^4.1.11",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2",
+    "minimatch": "^3.0.2"
+  }
+}
