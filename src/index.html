@@ -7,13 +7,91 @@
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
         <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="/css/bootstrap.css">
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css"> 
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/video_bg.css"> 
+        <link rel="stylesheet" href="css/animations.css">
     </head>
 
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-trans">
+        <a class="navbar-brand" href="#"><img src="assets/contagious-icon.png" class=" rotate" /> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse animated fadeInUp" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Our Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Our Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
     <body>
-        <script src="/js/jquery.min.js"></script>
-        <script src="/js/tether.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
+        <div id="overlay" class="video-section visible-desktop">
+            <div class="splash hide">
+                <div class="tagline">Bespoke Packages - Creative DJs - AV Solutions</div>
+                <p class="strapline">WE ARE <span>CONTAGIOUS</span></p>
+                <p class="strapline">WE LOVE <span>MUSIC</span></p>
+                <p class="strapline">WE CREATE <span>MEMORIES</span></p>
+            </div>
+    
+            <video id="hero-vid" autoplay loop muted>
+                <!-- <source type="video/webm" src="http://www.markhillard.com/sandbox/media/polina.webm"></source> -->
+                <source type="video/mp4" src="assets/bg_vid.mp4"></source>
+            </video>
+
+        </div>
+
+        <div class="video-fallback-carousel-section carousel-image hidden-desktop">
+            <div class="hidden-carousel-images">
+                <img src="assets/contagious1.jpg"/>
+                <img src="assets/contagious2.jpg"/>
+                <img src="assets/contagious3.jpg"/>
+            </div>
+        </div>
+    
+        <div class="btn-holder hide">
+            <a href="#" class="btn-box">
+                WHAT WE DO
+            </a>
+            <a href="#" class="btn-box">
+                BOOK
+            </a>
+        </div>
+        
+        <div id="content">
+               
+            <div class="screen-size">
+                   
+                </div>
+
+
+        </div>
+       
+       
+
+
+        <script src="js/jquery.min.js"></script>
+        <!-- <script src="/js/tether.min.js"></script> -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/site.min.js"></script>
+        <script src="js/video_bg.min.js"></script>
     </body>
 </html>
